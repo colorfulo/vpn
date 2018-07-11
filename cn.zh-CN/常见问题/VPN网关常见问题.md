@@ -6,7 +6,7 @@
 
 ## 2. 本地站点通过IPsec-VPN接入VPC的前提条件是什么？ {#section_tdq_n3h_xdb .section}
 
-需要一个静态公网IP和一个支持IKEv1和IKEv2协议的网关设备，详情参见[配置站点到站点连接](../../../../cn.zh-CN/IPsec-VPN入门/配置站点到站点连接.md#)。
+需要一个静态公网IP和一个支持IKEv1和IKEv2协议的网关设备，并且VPC和本地站点之间需要互通的两个网段不冲突，详情参见[配置站点到站点连接](../../../../cn.zh-CN/IPsec-VPN入门/配置站点到站点连接.md#)。
 
 ## 3. 跨地域VPC是否可以通过VPN网关互通？ {#section_udq_n3h_xdb .section}
 
