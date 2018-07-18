@@ -42,7 +42,7 @@
     |SA生存周期（秒）|设置第一阶段协商出的SA的生存周期。默认值为86400秒。|
     |LocalId|作为IPsec VPN网关的标识，用于第一阶段的协商。默认值为VPN网关的公网IP地址。如果手动设置LocalId为FQDN格式，建议将协商模式改为野蛮模式（aggressive）。|
     |RemoteId|作为用户网关的标识，用于第一阶段的协商。默认值为用户网关的公网IP地址。如果手动设置RemoteId为FQDN格式，建议将协商模式改为野蛮模式（aggressive）。|
-    |高级配置：IKE配置|
+    |高级配置：IPSEC配置|
     |加密算法|选择第二阶段协商的加密算法。支持aes、aes192、aes256、des和3des。|
     |认证算法|选择第二阶段协商的认证算法。支持sha1和md5。|
     |DH分组|选择第二阶段协商的Diffie-Hellman密钥交换算法。|
